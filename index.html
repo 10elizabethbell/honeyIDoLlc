@@ -89,17 +89,18 @@ section{padding:64px 0}
 .brand{display:flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;line-height:1}
 .brand b{font:400 21px/1 var(--display);letter-spacing:.01em;white-space:nowrap}
 .brand span{font:600 11px/1 var(--text);letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
-.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 18px/1 var(--display);text-decoration:none;white-space:nowrap}
 .tel svg{width:18px;height:18px;flex:none;color:var(--honey-ink)}
 
 /* ---------- Hero: example photo of a freshly caulked bathroom under navy ---------- */
 .hero{padding:0;position:relative;background-color:var(--navy);background-image:var(--texture);color:var(--on-dark);overflow:hidden;isolation:isolate}
 .hero-photo{position:absolute;inset:0;z-index:-2}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:60% 50%}
-.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,36,58,.80) 0%,rgba(20,36,58,.84) 55%,rgba(20,36,58,.92) 100%)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 60%}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,36,58,.76) 0%,rgba(20,36,58,.80) 55%,rgba(20,36,58,.90) 100%)}
 .hero-copy{position:relative;display:grid;gap:20px;justify-items:start;padding-top:64px;padding-bottom:72px}
 .hero h1{color:#fff;font-size:clamp(44px,12.4vw,84px);line-height:1.02;max-width:11ch}
 /* H1 bounce-in (after lpmr.co.uk): each letter slides in from 50px right with a slight overshoot, 20ms apart */
+.hero h1 .nb{white-space:nowrap}
 .hero h1 .w{display:inline-block;white-space:nowrap}
 .hero h1 .c{display:inline-block;opacity:0;transform:translateX(50px);animation:letter-in 1s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:calc(var(--i) * 20ms)}
 @keyframes letter-in{to{opacity:1;transform:none}}
@@ -127,7 +128,6 @@ section{padding:64px 0}
 .row:hover,.row:focus-visible{outline:none;background:none;box-shadow:none}
 .row .arrow{background:rgba(255,255,255,.1);color:var(--on-dark)}
 .row:focus-visible .arrow{background:var(--honey);color:var(--ink);outline:3px solid var(--honey);outline-offset:3px}
-.row small{display:block;font:400 15px/1.4 var(--text);color:var(--on-dark-soft);margin-top:4px}
 
 /* ---------- How it works ---------- */
 .steps{list-style:none;margin:36px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
@@ -140,7 +140,7 @@ section{padding:64px 0}
 .ask .wrap{display:grid;gap:28px}
 form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:20px;max-width:600px}
 .field{display:grid;gap:8px;min-width:0}
-.field label,.field legend{font:400 17px/1.2 var(--display);color:var(--ink);padding:0}
+.field label,.field legend{font:400 18px/1.2 var(--display);color:var(--ink);padding:0}
 .field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
 fieldset{border:0;margin:0;padding:0;min-width:0}
 fieldset legend{margin-bottom:8px}
@@ -153,12 +153,12 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 .chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
 .chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}
 .chips input:checked+label{background:var(--ink);color:#fff}
-.err{display:none;font-size:15px;color:var(--error)}
+.err{display:none;font-size:14px;color:var(--error)}
 .field.bad .err{display:block}
 .field.bad input[type=text],.field.bad textarea,.field.bad input[type=text]:focus,.field.bad textarea:focus{border-color:var(--error)}
 form .btn-primary{width:100%}
 form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.after{font-size:15px;color:var(--soft)}
+.after{font-size:14px;color:var(--soft)}
 .sent{color:var(--ink);font-weight:600}
 .sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
 @media (max-width:380px){.chips label{padding:0 14px}}
@@ -194,7 +194,8 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
   .tel{font-size:20px}
   section{padding:96px 0}
   .hero-copy{padding-top:112px;padding-bottom:128px}
-  .hero::after{background:linear-gradient(90deg,rgba(20,36,58,.90) 0%,rgba(20,36,58,.82) 50%,rgba(20,36,58,.62) 100%)}
+  .hero::after{background:linear-gradient(90deg,rgba(20,36,58,.90) 0%,rgba(20,36,58,.84) 45%,rgba(20,36,58,.5) 68%,rgba(20,36,58,.22) 100%)}
+  .hero-photo img{object-position:50% 85%}
   .promise{max-width:none}
   .actions{grid-auto-flow:column;justify-content:start;width:auto}
   .actions .btn{min-width:240px}
@@ -261,7 +262,7 @@ FORM: calm band system (lpmr.co.uk via DPG). No location in the H1: the brief fo
   </div>
   <div class="wrap hero-copy">
     <p class="eyebrow">No job too big. No job too small.</p>
-    <h1 id="h1">Your honey-do list, <span class="accent">done.</span></h1>
+    <h1 id="h1">Your <span class="nb">honey-do</span> list, <span class="accent">done.</span></h1>
     <p class="promise">Shower looking tired? <b>New caulk can make all the difference.</b></p>
     <div class="actions">
       <a class="btn btn-primary" href="#ask">Tell us about the job</a>

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-21T17:52:22.005Z",
+        "reason": "Ellie's house style: calm-photo-style.md (2026-10-19) requires the faint 135deg diagonal-line band texture on deep bands"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-21T17:52:27.214Z",
+        "reason": "Claude triage: listed sizes are UI/body steps (11-20px); display headings run clamp(30-84px) in Cal Sans, so hierarchy is not flat"
+      }
+    ]
+  }
+}
