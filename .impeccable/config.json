@@ -20,6 +20,24 @@
         ],
         "createdAt": "2026-10-21T17:52:27.214Z",
         "reason": "Claude triage: listed sizes are UI/body steps (11-20px); display headings run clamp(30-84px) in Cal Sans, so hierarchy is not flat"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "20px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-21T18:19:04.079Z",
+        "reason": "Claude triage: hero promise line clamp(17px..20px) is a deliberate lede step, matching the DPG calm-style reference"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "24px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-21T18:19:04.142Z",
+        "reason": "Claude triage: desktop wordmark size in the header, a one-off logo setting (no logo exists)"
       }
     ]
   }
