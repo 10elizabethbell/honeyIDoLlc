@@ -95,6 +95,7 @@ section{padding:64px 0}
 /* ---------- Hero: example photo of a freshly caulked bathroom under navy ---------- */
 .hero{padding:0;position:relative;background-color:var(--navy);background-image:var(--texture);color:var(--on-dark);overflow:hidden;isolation:isolate}
 .hero-photo{position:absolute;inset:0;z-index:-2}
+.hero-photo picture{display:contents}
 .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 60%}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,36,58,.76) 0%,rgba(20,36,58,.80) 55%,rgba(20,36,58,.90) 100%)}
 .hero-copy{position:relative;display:grid;gap:20px;justify-items:start;padding-top:64px;padding-bottom:72px}
@@ -159,8 +160,10 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 form .btn-primary{width:100%}
 form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 .after{font-size:14px;color:var(--soft)}
-.sent{color:var(--ink);font-weight:600}
-.sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
+.sent{color:var(--ink);font-weight:600;display:grid;gap:12px}
+.fallback{display:flex;flex-wrap:wrap;gap:10px}
+.btn-soft{background:var(--field);color:var(--ink);font-size:16px;min-height:48px;padding:0 20px}
+.sent p a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
 @media (max-width:380px){.chips label{padding:0 14px}}
 
 /* ---------- Close ---------- */
@@ -194,7 +197,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
   .tel{font-size:20px}
   section{padding:96px 0}
   .hero-copy{padding-top:112px;padding-bottom:128px}
-  .hero::after{background:linear-gradient(90deg,rgba(20,36,58,.90) 0%,rgba(20,36,58,.84) 45%,rgba(20,36,58,.5) 68%,rgba(20,36,58,.22) 100%)}
+  .hero::after{background:linear-gradient(90deg,rgba(20,36,58,.90) 0%,rgba(20,36,58,.82) 50%,rgba(20,36,58,.62) 100%)}
   .hero-photo img{object-position:50% 85%}
   .promise{max-width:none}
   .actions{grid-auto-flow:column;justify-content:start;width:auto}
@@ -222,8 +225,8 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
 .row:hover .arrow{background:var(--honey);color:var(--ink)}
 input[type=text]:hover,textarea:hover{border-color:var(--focus)}
 .chips label:hover{border-color:var(--focus)}
-form .btn-primary:hover{outline:2px solid var(--focus);outline-offset:2px}
-.sent a:hover{color:var(--navy)}
+form .btn-primary:hover,.btn-soft:hover{outline:2px solid var(--focus);outline-offset:2px}
+.sent p a:hover{color:var(--navy)}
 .bigtel:hover{color:var(--honey)}
 footer a:hover{color:var(--honey)}
 }
@@ -258,7 +261,7 @@ FORM: calm band system (lpmr.co.uk via DPG). No location in the H1: the brief fo
 <main id="top">
 <section class="hero" id="hero" aria-labelledby="h1">
   <div class="hero-photo" aria-hidden="true">
-    <img src="img/hero-1600.webp" srcset="img/hero-900.webp 900w, img/hero-1600.webp 1600w" sizes="100vw" width="1600" height="907" alt="" fetchpriority="high" decoding="async">
+    <picture><source media="(max-width:759px)" srcset="img/hero-900.webp" width="900" height="1088"><img src="img/hero-1600.webp" width="1600" height="907" alt="" fetchpriority="high" decoding="async"></picture>
   </div>
   <div class="wrap hero-copy">
     <p class="eyebrow">No job too big. No job too small.</p>
@@ -274,8 +277,8 @@ FORM: calm band system (lpmr.co.uk via DPG). No location in the H1: the brief fo
 <section class="on-paper care" aria-labelledby="h-care">
   <div class="wrap">
     <div class="rise">
-      <h2 id="h-care">We treat your home like it's <span class="accent">ours.</span></h2>
-      <p class="lede">It's the room you use every morning. We leave it the way we'd want our own: clean lines, nothing left behind, and ready to use when we say it will be.</p>
+      <h2 id="h-care">You ask. We say &ldquo;I do.&rdquo;</h2>
+      <p class="lede">We leave your bathroom the way we'd want ours: clean lines, nothing left behind.</p>
     </div>
     <figure class="shot rise"><img src="img/bead.webp" width="800" height="1000" alt="A clean, even line of new white caulk where a bathtub meets the tile" loading="lazy" decoding="async"></figure>
     <a class="fb rise" href="https://www.facebook.com/profile.php?id=100067576410105" rel="noopener">
@@ -306,7 +309,7 @@ FORM: calm band system (lpmr.co.uk via DPG). No location in the H1: the brief fo
     <ol class="steps">
       <li class="rise"><div><b>Call or text us.</b><span>Tell us what's on the list.</span></div></li>
       <li class="rise"><div><b>We talk it through.</b><span>What it needs, and when we can come.</span></div></li>
-      <li class="rise"><div><b>We get it done.</b><span>And cross it off your list.</span></div></li>
+      <li class="rise"><div><b>We cross it off your list.</b><span>Big job or small.</span></div></li>
     </ol>
   </div>
 </section>
@@ -314,7 +317,6 @@ FORM: calm band system (lpmr.co.uk via DPG). No location in the H1: the brief fo
 <section class="on-paper ask" id="ask" aria-labelledby="h-ask">
   <div class="wrap">
     <div class="head rise">
-      <p class="eyebrow">No job too small</p>
       <h2 id="h-ask">Tell us about the job</h2>
       <p class="lede">Not sure it's something we do? Ask anyway.</p>
     </div>
@@ -343,7 +345,14 @@ FORM: calm band system (lpmr.co.uk via DPG). No location in the H1: the brief fo
         <input type="text" id="where" name="where" autocomplete="address-level2" maxlength="60">
       </div>
       <button class="btn btn-primary" type="submit"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text this to us</button>
-      <p class="sent" id="sent" role="status" hidden>Didn't open your messages? Call us at <a href="tel:+16094310036">(609) 431-0036</a>.</p>
+      <div class="sent" id="sent" role="status" hidden>
+        <p>Didn't open your messages?</p>
+        <div class="fallback">
+          <a class="btn btn-soft" id="openSms" href="sms:+16094310036"><svg aria-hidden="true"><use href="#i-chat"/></svg>Open in Messages</a>
+          <button class="btn btn-soft" type="button" id="copyMsg">Copy message</button>
+        </div>
+        <p>Or call us at <a href="tel:+16094310036">(609) 431-0036</a>.</p>
+      </div>
       <p class="after">Opens your messages with this written out.</p>
     </form>
   </div>
@@ -417,6 +426,11 @@ document.documentElement.classList.add('js');
 /* ===== Job form: composes a text to the business ===== */
 (function(){
   var form=document.getElementById('jobForm');if(!form)return;
+  var lastMsg='';
+  document.getElementById('copyMsg').addEventListener('click',function(){
+    var b=this;if(!navigator.clipboard)return;
+    navigator.clipboard.writeText(lastMsg).then(function(){b.textContent='Copied'},function(){b.textContent='Copy blocked: use Open in Messages'});
+  });
   function val(id){return document.getElementById(id).value.trim()}
   function mark(id,bad){var f=document.getElementById(id);f.classList.toggle('bad',bad);f.querySelector('input,textarea').setAttribute('aria-invalid',bad?'true':'false')}
   form.addEventListener('input',function(e){var f=e.target.closest('.field');if(f&&f.classList.contains('bad')&&e.target.value.trim())f.classList.remove('bad')});
@@ -428,9 +442,11 @@ document.documentElement.classList.add('js');
     if(!what){document.getElementById('what').focus();return}
     var msg='Hi HONEY, I Do! This is '+name+'.';
     if(j)msg+=' Job: '+j.value+'.';
-    msg+=' '+what.replace(/[.\s]+$/,'')+'.';
+    msg+=' '+what+(/[.!?]$/.test(what)?'':'.');
     if(where)msg+=' Town: '+where+'.';
-    location.href='sms:'+CONFIG.PHONE+'?&body='+encodeURIComponent(msg);
+    var href='sms:'+CONFIG.PHONE+'?&body='+encodeURIComponent(msg);
+    document.getElementById('openSms').href=href;lastMsg=msg;
+    location.href=href;
     // if no messages app opened (desktop, some in-app browsers), say what to do instead
     setTimeout(function(){document.getElementById('sent').hidden=false},900);
   });
