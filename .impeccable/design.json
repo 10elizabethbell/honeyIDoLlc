@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T18:18:08.096752+00:00",
+  "title": "Design System: HONEY, I Do LLC",
+  "extensions": {
+    "colorMeta": {
+      "honey": {
+        "role": "primary",
+        "displayName": "Honey Gold",
+        "canonical": "oklch(80.2% 0.151 79)",
+        "tonalRamp": [
+          "#280000",
+          "#490e00",
+          "#6b3100",
+          "#8e5200",
+          "#b27400",
+          "#d79700",
+          "#febc43",
+          "#ffe26d"
+        ]
+      },
+      "honey-light": {
+        "role": "primary",
+        "displayName": "Ripe Honey",
+        "canonical": "oklch(84.6% 0.134 83)",
+        "tonalRamp": [
+          "#230000",
+          "#431700",
+          "#633700",
+          "#855700",
+          "#a97900",
+          "#ce9c2d",
+          "#f3c158",
+          "#ffe67f"
+        ]
+      },
+      "honey-ink": {
+        "role": "primary",
+        "displayName": "Burnt Honey Ink",
+        "canonical": "oklch(49.8% 0.106 72)",
+        "tonalRamp": [
+          "#230000",
+          "#421700",
+          "#633600",
+          "#855600",
+          "#a97730",
+          "#ce9a55",
+          "#f4be79",
+          "#ffe49e"
+        ]
+      },
+      "navy": {
+        "role": "neutral",
+        "displayName": "Workshop Navy",
+        "canonical": "oklch(34.4% 0.070 254)",
+        "tonalRamp": [
+          "#000927",
+          "#082546",
+          "#264366",
+          "#456388",
+          "#6585ac",
+          "#87a8d0",
+          "#aaccf6",
+          "#cff2ff"
+        ]
+      },
+      "deep-navy": {
+        "role": "neutral",
+        "displayName": "Deep Navy",
+        "canonical": "oklch(25.8% 0.047 257)",
+        "tonalRamp": [
+          "#010b1e",
+          "#15263c",
+          "#32435b",
+          "#50627c",
+          "#70849f",
+          "#92a7c3",
+          "#b6cbe8",
+          "#dbf0ff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(25.8% 0.047 257)",
+        "tonalRamp": [
+          "#010b1e",
+          "#15263c",
+          "#32435b",
+          "#50627c",
+          "#70849f",
+          "#92a7c3",
+          "#b6cbe8",
+          "#dbf0ff"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "oklch(97.3% 0.007 269)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242529",
+          "#404246",
+          "#5f6165",
+          "#808287",
+          "#a3a5aa",
+          "#c7c9ce",
+          "#eceef3"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Blue-Grey",
+        "canonical": "oklch(94.1% 0.014 258)",
+        "tonalRamp": [
+          "#080b11",
+          "#21252c",
+          "#3e4249",
+          "#5c6269",
+          "#7d838b",
+          "#a0a5ae",
+          "#c4cad2",
+          "#e9eff8"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "oklch(33.1% 0.032 260)",
+        "tonalRamp": [
+          "#040b18",
+          "#1c2534",
+          "#384353",
+          "#576274",
+          "#778396",
+          "#9aa6b9",
+          "#bdcade",
+          "#e2efff"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft Slate",
+        "canonical": "oklch(47.1% 0.026 257)",
+        "tonalRamp": [
+          "#050b16",
+          "#1d2632",
+          "#394350",
+          "#586270",
+          "#798392",
+          "#9ba6b6",
+          "#bfcada",
+          "#e4f0ff"
+        ]
+      },
+      "on-dark-soft": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "oklch(87.3% 0.019 256)",
+        "tonalRamp": [
+          "#060b13",
+          "#1f262e",
+          "#3b434c",
+          "#5a626c",
+          "#7b838e",
+          "#9da6b1",
+          "#c1cad6",
+          "#e6effc"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Brick",
+        "canonical": "oklch(50.1% 0.178 29)",
+        "tonalRamp": [
+          "#3a0000",
+          "#610000",
+          "#880000",
+          "#b0221b",
+          "#d84c3f",
+          "#ff7161",
+          "#ff9784",
+          "#ffbda8"
+        ]
+      },
+      "hairline-on-dark": {
+        "role": "neutral",
+        "displayName": "Hairline on Dark",
+        "canonical": "rgba(255,255,255,.14)",
+        "tonalRamp": []
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only, white on navy, max 11ch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Every section H2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows and step titles."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, field labels, phone numbers, link card."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Line under a heading, max 38ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, inputs, chips."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Helper notes, errors, optional hints."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float-lift",
+        "value": "0 10px 28px rgba(10,22,38,.3)",
+        "purpose": "Floating text circle only."
+      }
+    ],
+    "textures": [
+      {
+        "name": "workshop-lines",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Deep-navy bands, footer and hero ground."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), 20ms stagger, from translateX(50px)",
+        "purpose": "Hero H1 letter bounce-in only."
+      },
+      {
+        "name": "rise",
+        "value": "opacity/transform .4s ease-out, from translateY(12px)",
+        "purpose": "One fade-up for elements starting below the first screen."
+      },
+      {
+        "name": "float-in",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Floating text circle sliding up."
+      },
+      {
+        "name": "state",
+        "value": ".15s-.2s colour/border; press scale(.98) .12s",
+        "purpose": "Hover, focus and press feedback."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "max-width 380px"
+      },
+      {
+        "name": "md",
+        "value": "760px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Honey pill with an ink Cal Sans label; the main action in hero and form.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Tell us about the job</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn-primary{background:var(--honey,#f2b134);color:var(--ink,#14243a);border-color:var(--honey,#f2b134)} .ds-btn-primary:hover{background:var(--honey-2,#f7c45c);border-color:var(--honey-2,#f7c45c)} .ds-btn-primary:focus-visible{outline:3px solid var(--focus,#1d3a5c);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined pill for the secondary action on navy grounds only.",
+      "html": "<div class=\"ds-navy\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Text us</a></div>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-navy{background:var(--navy,#1d3a5c);padding:24px} .ds-btn-ghost{background:transparent;color:var(--on-dark,#f4f6fb);border-color:rgba(244,246,251,.7)} .ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)} .ds-btn-ghost:focus-visible{outline:3px solid var(--honey,#f2b134);outline-offset:3px}"
+    },
+    {
+      "name": "Soft Button",
+      "kind": "button",
+      "refersTo": "button-soft",
+      "description": "Field-blue pill for secondary fallbacks inside the white form card.",
+      "html": "<button class=\"ds-btn ds-btn-soft\" type=\"button\">Copy message</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn-soft{background:var(--field,#e6ecf5);color:var(--ink,#14243a);font-size:16px;min-height:48px;padding:0 20px} .ds-btn-soft:hover,.ds-btn-soft:focus-visible{outline:2px solid var(--focus,#1d3a5c);outline-offset:2px}"
+    },
+    {
+      "name": "Job Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Radio choice styled as a field-blue pill; selected fills ink.",
+      "html": "<div class=\"ds-chips\"><input type=\"radio\" name=\"ds-j\" id=\"ds-j1\" checked><label for=\"ds-j1\">Shower refresh</label><input type=\"radio\" name=\"ds-j\" id=\"ds-j2\"><label for=\"ds-j2\">New caulk</label></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:10px} .ds-chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0} .ds-chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;background:var(--field,#e6ecf5);border:2px solid transparent;font:16px/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;color:var(--ink,#14243a);cursor:pointer;transition:border-color .15s,background-color .15s,color .15s} .ds-chips label:hover{border-color:var(--focus,#1d3a5c)} .ds-chips input:checked+label{background:var(--ink,#14243a);color:#fff} .ds-chips input:focus-visible+label{outline:3px solid var(--focus,#1d3a5c);outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Field-blue input with a Cal Sans label; border turns navy on hover/focus, brick on error.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-n\">Your name</label><input id=\"ds-n\" type=\"text\" placeholder=\"First name is fine\"></div>",
+      "css": ".ds-field{display:grid;gap:8px} .ds-field label{font:400 18px/1.2 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;color:var(--ink,#14243a)} .ds-field input{width:100%;font:16px/1.4 -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;color:var(--ink,#14243a);background:var(--field,#e6ecf5);border:2px solid transparent;border-radius:10px;padding:13px 14px;min-height:52px;caret-color:var(--navy,#1d3a5c);transition:border-color .15s} .ds-field input::placeholder{color:var(--soft,#525c6a)} .ds-field input:hover,.ds-field input:focus{outline:none;border-color:var(--focus,#1d3a5c)}"
+    },
+    {
+      "name": "Form Card",
+      "kind": "card",
+      "refersTo": "card-form",
+      "description": "White 24px card on paper holding the job form; flat, no border.",
+      "html": "<div class=\"ds-paper\"><div class=\"ds-card\"><b>Tell us about the job</b><p>Opens your messages with this written out.</p></div></div>",
+      "css": ".ds-paper{background:var(--paper,#f4f6fb);padding:24px} .ds-card{background:var(--card,#fff);border-radius:24px;padding:clamp(20px,5vw,32px);display:grid;gap:12px;max-width:600px} .ds-card b{font:400 22px/1.2 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;color:var(--ink,#14243a)} .ds-card p{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;color:var(--soft,#525c6a)}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Whole-row link between hairlines on navy; only the arrow disc turns honey on hover/focus.",
+      "html": "<div class=\"ds-navy2\"><a class=\"ds-row\" href=\"#\">Shower refresh<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a><a class=\"ds-row\" href=\"#\">New caulk<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></div>",
+      "css": ".ds-navy2{background:var(--navy,#1d3a5c);padding:8px 24px} .ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;padding:14px 0;border-top:1px solid rgba(255,255,255,.14);color:var(--on-dark,#f4f6fb);text-decoration:none;font:400 clamp(22px,6vw,26px)/1.15 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif} .ds-row:last-child{border-bottom:1px solid rgba(255,255,255,.14)} .ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--on-dark,#f4f6fb);transition:background-color .2s,color .2s} .ds-row:hover,.ds-row:focus-visible{outline:none} .ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:var(--honey,#f2b134);color:var(--ink,#14243a)} .ds-row:focus-visible .ds-arrow{outline:3px solid var(--honey,#f2b134);outline-offset:3px}"
+    },
+    {
+      "name": "Step Counter",
+      "kind": "custom",
+      "refersTo": "step-counter",
+      "description": "Honey numeral disc with a Cal Sans step title on textured deep navy.",
+      "html": "<ol class=\"ds-steps\"><li><div><b>Call or text us.</b><span>Tell us what's on the list.</span></div></li><li><div><b>We talk it through.</b><span>What it needs, and when we can come.</span></div></li></ol>",
+      "css": ".ds-steps{list-style:none;margin:0;padding:24px;display:grid;gap:24px;counter-reset:s;background-color:var(--deep,#14243a);background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);color:var(--on-dark-soft,#cdd6e2);font:16px/1.7 -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif} .ds-steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;counter-increment:s} .ds-steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--honey,#f2b134);color:var(--ink,#14243a);font:400 20px/1 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif} .ds-steps b{display:block;font:400 21px/1.2 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;color:var(--on-dark,#f4f6fb);margin-top:4px} .ds-steps span{display:block;margin-top:4px}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "custom",
+      "refersTo": "float-button",
+      "description": "The single fixed honey circle for texting; the only shadowed surface.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text us\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--honey,#f2b134);color:var(--ink,#14243a);box-shadow:0 10px 28px rgba(10,22,38,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)} .ds-float:focus-visible{outline:3px solid var(--focus,#1d3a5c);outline-offset:3px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Paper strip with the Cal Sans wordmark left and tap-to-call right; no menu.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><b>HONEY, I Do</b><span>LLC · Home repairs</span></a><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>(609) 431-0036</a></header>",
+      "css": ".ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:0 20px;background:var(--paper,#f4f6fb);color:var(--ink,#14243a)} .ds-brand{display:flex;flex-direction:column;text-decoration:none;color:inherit;line-height:1} .ds-brand b{font:400 21px/1 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif} .ds-brand span{font:600 11px/1 -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--soft,#525c6a);margin-top:5px} .ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 18px/1 \"Cal Sans\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;text-decoration:none;color:inherit} .ds-tel svg{color:var(--honey-ink,#875700)} .ds-tel:hover{color:var(--honey-ink,#875700)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Answered List",
+    "overview": "A calm, orderly page for a two-word pun. The whole system is a stack of full-bleed bands (cool paper, workshop navy, deep navy with faint diagonal lines) that read like a tidy job sheet: one promise, a short list of what gets fixed, three steps, a form, a phone number. Nothing competes; each band carries one idea and one action.\n\nHoney gold is the only colour with a voice. It comes from the name (there is no logo), it is used as a fill wherever a thing can be tapped or counted, and it marks the closing word of a few headings. Everything else is navy, paper and white. Type is a single rounded display face at regular weight for anything spoken or tappable, with a plain system face for reading. Depth is flat: grounds change, surfaces do not lift.\n\nDensity is low and phone-first. Targets are big (44px minimum, 56px primary), copy is short, and the desktop layout is the mobile stack widened into two columns, never a different page.",
+    "keyCharacteristics": [
+      "Alternating full-bleed bands: paper, navy, deep navy (textured); never two of the same ground touching.",
+      "One accent, honey (#f2b134), used as a fill; text on honey is always ink.",
+      "Cal Sans at weight 400 for headings, buttons, labels and links; system sans for body.",
+      "Pills for actions and choices, 24px rounded cards for containers, circles for counters and arrows.",
+      "Flat surfaces; the only shadow belongs to the floating text circle.",
+      "Motion is three things: the hero H1 letter bounce-in, one 12px fade-up below the fold, the float sliding in."
+    ],
+    "rules": [
+      {
+        "name": "The Honey Fills Rule",
+        "body": "Honey is a fill, and anything sitting on honey is Ink. Honey appears as text only on navy or deep navy; on paper or white it becomes Burnt Honey Ink. (The direction contract said \"fills only\"; the build also uses honey as text on dark grounds, and that is the recorded rule.)",
+        "section": "colors"
+      },
+      {
+        "name": "The One Warm Colour Rule",
+        "body": "No second accent. Every other colour on the page is a navy, a slate, or a paper. If a new element needs emphasis, it gets honey or it gets nothing.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Focus Colours Rule",
+        "body": "Focus and form hover use Workshop Navy on light grounds and Honey on dark grounds, so the ring never disappears into its background and never looks like a honey fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Regular Weight Rule",
+        "body": "Cal Sans is only ever set at 400. Emphasis comes from size and from honey, never from bolding the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Spoken Word Rule",
+        "body": "Anything the visitor taps or reads aloud as a label (buttons, field labels, rows, phone numbers) is set in Cal Sans; anything they read as prose is system sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The Closing Word Rule",
+        "body": "A heading may carry one honey accent, on its final word or phrase including the full stop (\"done.\", \"take on.\", \"works.\"). Not every heading gets one.",
+        "section": "typography"
+      },
+      {
+        "name": "The Same Page Wider Rule",
+        "body": "Desktop is the phone stack laid into two columns at 1024px. No section changes its content or order between sizes.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Lift Rule",
+        "body": "Cards, rows and buttons never gain a shadow, including on hover. The floating circle is the one surface allowed to cast one.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Workshop Texture Rule",
+        "body": "Deep Navy always carries the 135-degree hairline texture (1px white at 3.5% every 23px); the hero navy carries it too. Plain navy bands stay untextured.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put Ink on every honey fill, and switch to Burnt Honey Ink whenever honey would be text on paper or white.",
+      "**Do** alternate grounds band by band (paper, navy, deep navy) and keep the line texture on deep navy.",
+      "**Do** set every heading, button, label and phone number in Cal Sans at 400.",
+      "**Do** use pills for actions and choices, 24px for containers, circles for counters and arrows.",
+      "**Do** make the arrow disc the only thing that reacts when a whole row or card is the link.",
+      "**Do** gate hover styles behind a real pointer (`@media (hover:hover)`) so taps do not stick.",
+      "**Do** keep targets at 44px minimum and primary actions at 56px."
+    ],
+    "donts": [
+      "**Don't** introduce a second accent colour or a honey gradient.",
+      "**Don't** bold Cal Sans or use it for paragraphs.",
+      "**Don't** add shadows to cards, rows or buttons; the floating circle is the only lifted surface.",
+      "**Don't** replace the floating circle with a sticky bottom bar.",
+      "**Don't** animate anything above the fold except the hero H1, or add a second entrance effect beside the 12px fade-up.",
+      "**Don't** present illustrative photos as the client's own work."
+    ]
+  }
+}
